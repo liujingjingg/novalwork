@@ -10,7 +10,7 @@ after_script:
   - git config user.email "949694044@qq.com"
   - git add .
   - git commit -m "publish gitbook"
-  - git push --force --quiet "https://${ACC_TOKEN}@github.com/liujingjingg/zidonghua" master:gh-pages
+  - git push --force --quiet "https://${ACC_TOKEN}@github.com/liujingjingg/novalwork" master:gh-pages
 
 branches:
   only:
